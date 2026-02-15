@@ -165,8 +165,9 @@ Loan-Approval-Prediction/
 
 ## Links
 
-- **GitHub Repository:** [https://github.com/pradeep-kodavoor/Loan-Approval-Prediction](https://github.com/pradeep-kodavoor/Loan-Approval-Prediction)
-- **Live Streamlit App:** [https://loan-approval-prediction-service.streamlit.app]
+- **GitHub Repository:** [Loan-Approval-Prediction](https://github.com/pradeep-kodavoor/Loan-Approval-Prediction)
+- **Live Streamlit App:** [Loan-Approval-Prediction-Service](https://loan-approval-prediction-service.streamlit.app)
+
 
 ---
 
