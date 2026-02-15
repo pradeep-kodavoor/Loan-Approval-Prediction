@@ -24,20 +24,20 @@ This project builds and compares 6 classification models to predict whether a lo
 
 | # | Feature | What it Represents | Type |
 |---|---------|---------------------|------|
-| 1 | `no_of_dependents` | Number of dependents of the applicant | Numeric |
-| 2 | `education` | Education level (Graduate / Not Graduate) | Categorical |
-| 3 | `self_employed` | Whether the applicant is self-employed | Categorical |
-| 4 | `income_annum` | Annual income of the applicant | Numeric |
-| 5 | `loan_amount` | Loan amount requested | Numeric |
-| 6 | `loan_term` | Loan repayment term in months | Numeric |
-| 7 | `cibil_score` | Credit score of the applicant (300–900) | Numeric |
-| 8 | `residential_assets_value` | Value of residential assets | Numeric |
-| 9 | `commercial_assets_value` | Value of commercial assets | Numeric |
-| 10 | `luxury_assets_value` | Value of luxury assets | Numeric |
-| 11 | `bank_asset_value` | Value of bank assets | Numeric |
+| 1 | `loan_id` | Unique identifier for each loan application | Numeric |
+| 2 | `no_of_dependents` | Number of dependents of the applicant | Numeric |
+| 3 | `education` | Education level (Graduate / Not Graduate) | Categorical |
+| 4 | `self_employed` | Whether the applicant is self-employed | Categorical |
+| 5 | `income_annum` | Annual income of the applicant | Numeric |
+| 6 | `loan_amount` | Loan amount requested | Numeric |
+| 7 | `loan_term` | Loan repayment term in months | Numeric |
+| 8 | `cibil_score` | Credit score of the applicant (300–900) | Numeric |
+| 9 | `residential_assets_value` | Value of residential assets | Numeric |
+| 10 | `commercial_assets_value` | Value of commercial assets | Numeric |
+| 11 | `luxury_assets_value` | Value of luxury assets | Numeric |
+| 12 | `bank_asset_value` | Value of bank assets | Numeric |
 
 ### Preprocessing Steps
-- Dropped `loan_id` (irrelevant identifier)
 - Encoded `education` (Graduate=1, Not Graduate=0)
 - Encoded `self_employed` (Yes=1, No=0)
 - Encoded `loan_status` (Approved=1, Rejected=0)
